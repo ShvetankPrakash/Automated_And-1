@@ -2,6 +2,8 @@
 
 ### A deep learning system for detecting basketball fouls in real time. 
 
-If you would like to listen to a comprehensive description of the project, checkout `demo_video/presentation_video.mp4`.
+If you would like a comprehensive description of the project, listen to the short video at `demo_videos/presentation_video.mp4`!
 
 To view the end-to-end project solution, please checkout the Jupyter Notebook by clicking on `automated_and1.ipynb`.
+
+Slides are available at `presentation.pdf`.
