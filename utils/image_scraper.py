@@ -7,7 +7,7 @@ from PIL import Image
 import io
 import hashlib
 
-DRIVER_PATH = '/Users/sprakash/Desktop/chromedriver'
+DRIVER_PATH = '~/Desktop/chromedriver'
 
 # My addition to GitHub Repo Code
 def scroll_down(wd):
@@ -123,7 +123,7 @@ if __name__ == '__main__':
         search_box = wd.find_element_by_css_selector('input.gLFyf')
         search_box.send_keys(query)
         links = fetch_image_urls(query, 1000, wd)
-        images_path = '/Users/sprakash/Desktop/input/data'  # enter your desired image path
+        images_path = '~/Desktop/input/data'  # enter your desired image path
         for i in links:
             persist_image(images_path,query,i)
     wd.quit()
